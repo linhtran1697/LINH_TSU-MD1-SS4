@@ -1,0 +1,14 @@
+/* /* reset css mặc định */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  border: 1px solid #999; /* Đường viền xám mỏng */
+  padding: 15px;          /* Khoảng cách giữa văn bản và viền */
+  max-width: 800px;       /* Giới hạn chiều rộng khung */
+  font-family: Arial, sans-serif; /* Font chữ không chân hiện đại */
+  line-height: 1.6;       /* Khoảng cách giữa các dòng */
+  color: #333; 
+}
