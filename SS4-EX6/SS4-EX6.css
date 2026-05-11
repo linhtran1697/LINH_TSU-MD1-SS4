@@ -1,0 +1,40 @@
+/* reset css mặc định */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* css trang web */
+.container {
+  background-color:bisque; /* Màu nền sáng */
+  border: 1px solid #999; /* Đường viền xám mỏng */
+  padding: 15px;          /* Khoảng cách giữa văn bản và viền */
+  max-width: 600px;       /* Giới hạn chiều rộng khung */
+  font-family: Arial, sans-serif; /* Font chữ không chân hiện đại */
+  line-height: 1.6;       /* Khoảng cách giữa các dòng */
+  color: #333; 
+  }
+h1 {;
+   color: Blue;
+   text-align: center;
+}
+p {
+    text-align: center;
+    color: rgb(209, 14, 206)
+
+}
+.btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: Gray;
+    color: Black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center
+}
+.btn:hover {
+    background-color: #064d04;
+    color: white;
+}
